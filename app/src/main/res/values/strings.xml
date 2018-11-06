@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewPagerTest</string>
+    <string name="pager_title_one">美景一</string>
+    <string name="pager_title_two">美景二</string>
+    <string name="pager_title_three">美景三</string>
+    <string name="pager_title_four">美景四</string>
+    <string name="pager_title_five">美景五</string>
+</resources>
