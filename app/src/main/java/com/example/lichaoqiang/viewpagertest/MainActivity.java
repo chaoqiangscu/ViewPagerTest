@@ -101,9 +101,9 @@ public class MainActivity extends AppCompatActivity {
             if (i == 0) {
                 point.setEnabled(true); //将第一个圆点设置为可用，则会显示红色
             } else {
-                point.setEnabled(false);
-                params.leftMargin = 18; //其它圆点设置为不可用，则会显示为灰色
+                point.setEnabled(false);//其它圆点设置为不可用，则会显示为灰色
             }
+            params.leftMargin = 18;
             point.setLayoutParams(params);  //设置布局参数
             pagerIndicator.addView(point);  //添加指示的圆点
         }
